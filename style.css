@@ -1,0 +1,126 @@
+/*Global*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+
+header {
+    color: black;
+    text-align: center;
+    width: 100%;
+    background-image: url("https://i.postimg.cc/x8z62cqW/pexels-cottonbro-5741299.jpg");
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    height: 200px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+h1:hover {
+    background-color: black;
+}
+
+#zegar {
+    right: 5%;
+    top: 30%;
+    font-size: 30px;
+    position: absolute;
+    color: white;
+}
+
+#zegar:hover {
+    background-color: black;
+}
+
+/*NAV*/
+
+nav {
+    background-color: #ccae62;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 ;
+    padding: 8px 0;
+    position: relative;
+    width: 14.065vw;
+    height: 40px;
+    text-align: center;
+    
+}
+
+nav .active {
+    background: brown;;
+}
+nav li:hover {
+    background: brown;
+}
+
+nav a {
+    font-size: 20px;
+}
+nav a:hover {
+    color: black;
+}
+
+nav ul  ul li {
+    display: block;
+    margin: 0 0 0 0;
+    background: brown;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background: brown;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav li:hover ul {
+    display: block;
+    text-align: center;
+    background: brown;
+}
+
+nav ul ul li a {
+    color: white;
+    display: block;
+    padding: 5px 24px;
+    background: brown;
+}
+
+nav ul ul li a:hover {
+    color: black;
+}

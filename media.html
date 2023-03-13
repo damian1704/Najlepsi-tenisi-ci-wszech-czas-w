@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <title>Najlepsi tenisiści wszech czasów</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sass/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="header_wrapper">
+        <a href="#Home">
+          <h1 class="title">
+            Najlepsi tenisiści<br> wszech czasów
+          </h1>
+        </a>
+        <div>
+          <button id="watch" onclick="odliczanie();">DATA</button>
+      </div>  
+    </header>
+    <nav><ul><li ><a href="index.html">Home</a></li><li class="active"><a href="biografie mężczyzn.html">Biografie mężczyzn</a></li><li><a href="biografie kobiet.html">Biografie kobiet</a></li><li><a href="rekordy.html">Rekordy</a><ul><li><a href="mężczyźni">Kobiety</a></li><li><a href="kobiety">Mężczyźni</a></li></ul></li><li><a href="media.html">Media</a></li><li><a href="rankingi.html">Rankingi</a></li></ul>
+    </nav>
+    <section id="video">
+      <div class="section1">
+        
+        <input type="checkbox" id="hide" hidden>
+        <input type="checkbox" id="hide2" hidden>
+        <input type="checkbox" id="hide3" hidden>
+        <input type="checkbox" id="hide4" hidden>
+        <input type="checkbox" id="hide5" hidden>
+        <main>
+          <div>
+            <label for="hide"><span>Click Rafael Nadal!</span></label>
+            <label for="hide2"><span>Click Novak Djokovic!</span></label>
+            <label for="hide3"><span>Click Roger Federer!</span></label>
+            <label for="hide4"><span>Click Gael Monfils!</span></label>
+            <label for="hide5"><span>Click The Best!</span></label>
+          </div>
+          <div class="rafa">
+	          <div class="movie">
+              <h3>Rafael Nadal - Top 10 najlepszych zagrań na Roland Garros</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/lL4tKkKKA30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="movie">
+              <h3>Rafael Nadal wins nail-biting tie break against Zverev | Roland Garros 2022 | Eurosport Tennis</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/_Ft6ibBx3Fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="movie">
+              <h3>Rafael Nadal beats Novak Djokovic in battle of the GOATS | Eurosport Tennis</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/B1BMdbzJ5FQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="novak">
+            <div class="movie">
+              <h3>10 MINUTES OF: Novak Djokovic 'Beast Mode' Tennis</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/4iTiRvk4FHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="roger">
+            <div class="movie">
+              <h3>10 Times Roger Federer Blew Our Minds | TOP 10 | ATP</h3>  
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/mExHw1oTP8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="gael">
+            <div class="movie">
+              <h3>Gael Monfils: Most Epic Athletic Moments!</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/6wJj-g3ASpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="movie">
+              <h3>BEST SHOTS MONFILS</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/8gp-iMmPvKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="thebest">
+            <div class="movie">
+              <h3>Top 5 Best Rallies - Roland-Garros</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/a7O54L_vcyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="movie">
+              <h3>The Most Genius Plays in Tennis!</h3>   
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/f4BUFPqzLKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </main>
+      </div> 
+    </section>
+  </body> 
+</html>
